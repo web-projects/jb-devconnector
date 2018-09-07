@@ -23,10 +23,6 @@
 5. Run `> npm install` to install the project dependencies
 6. Run `> npm server` command to start the automation
 
-# HISTORY
-
-    $ 2018/09/05 - Initial repository.
-
 # HEROKU HOSTING
 
 From the root of the project:
@@ -34,3 +30,8 @@ From the root of the project:
 $ heroku create jb-devconnector
 
 https://jb-devconnector.herokuapp.com
+
+# HISTORY
+
+    $ 2018/09/05 - Initial repository.
+    $ 2018/09/07 - User Api Routes and JWT Authentication.
