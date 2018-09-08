@@ -1,11 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const passport = require('passport');
 
 const users = require('./routes/api/users');
 const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
 
+// Application Instance
 const app = express();
 
 // create application/json parser
@@ -29,9 +31,11 @@ mongoose
   .then(() => console.log('server-js: MongoDB Connected'))
   .catch(err => console.log(err));
 
-app.get('/', (req, res) => {
-  res.send('Hello!');
-});
+// Passport Middleware
+app.use(passport.initialize());
+
+// Passport Config - JWT Strategy
+require('./config/passport.js')(passport);
 
 // Use routes
 app.use('/api/users', users);

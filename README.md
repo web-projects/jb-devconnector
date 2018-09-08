@@ -35,3 +35,4 @@ https://jb-devconnector.herokuapp.com
 
     $ 2018/09/05 - Initial repository.
     $ 2018/09/07 - User Api Routes and JWT Authentication.
+    $ 2018/09/09 - User Registration and Postman.
