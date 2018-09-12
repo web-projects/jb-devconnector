@@ -37,3 +37,4 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/07 - User Api Routes and JWT Authentication.
     $ 2018/09/09 - User Registration and Postman.
     $ 2018/09/10 - Profile API Routes.
+    $ 2018/09/11 - Profile with Experience and Education.
