@@ -38,3 +38,5 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/09 - User Registration and Postman.
     $ 2018/09/10 - Profile API Routes.
     $ 2018/09/11 - Profile with Experience and Education.
+    $ 2018/09/11 - Post API Routes.
+
