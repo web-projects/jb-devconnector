@@ -42,3 +42,4 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/18 - Post Comments/Like Routes.
                  - React and Basic Layout.
     $ 2018/09/19 - React Router and Component State.
+    $ 2018/09/20 - Redux and Authentication.
