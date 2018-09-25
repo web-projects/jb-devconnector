@@ -134,8 +134,8 @@ router.post(
     if (req.body.status) {
       profileFields.status = req.body.status;
     }
-    if (req.body.githubuser) {
-      profileFields.githubuser = req.body.githubuser;
+    if (req.body.githubusername) {
+      profileFields.githubusername = req.body.githubusername;
     }
 
     // Skills - split into array from CSV

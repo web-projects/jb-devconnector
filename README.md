@@ -44,3 +44,4 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/19 - React Router and Component State.
     $ 2018/09/20 - Redux and Authentication.
     $ 2018/09/21 - Profile Component and Route.
+    $ 2018/09/22 - Dashboard and Profile state.
