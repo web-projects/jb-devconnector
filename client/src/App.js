@@ -15,6 +15,8 @@ import { setCurrentUser, logoutUser } from './actions/authActions';
 import { clearCurrentProfile } from './actions/profileActions';
 import CreateProfile from './components/create-profile/CreateProfile';
 import EditProfile from './components/edit-profile/EditProfile';
+import AddExperience from './components/add-credentials/AddExperience';
+import AddEducation from './components/add-credentials/AddEducation';
 
 // Redux Store
 import store from './Store';
@@ -72,6 +74,20 @@ class App extends Component {
                   exact
                   path="/edit-profile"
                   component={EditProfile}
+                />
+              </Switch>
+              <Switch>
+                <PrivateRoute
+                  exact
+                  path="/add-experience"
+                  component={AddExperience}
+                />
+              </Switch>
+              <Switch>
+                <PrivateRoute
+                  exact
+                  path="/add-education"
+                  component={AddEducation}
                 />
               </Switch>
             </div>
