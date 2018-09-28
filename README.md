@@ -47,3 +47,4 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/22 - Dashboard and Profile state.
     $ 2018/09/23 - Dashboard Experience and Education.
     $ 2018/09/24 - Profile Display.
+    $ 2018/09/27 - Posts and Comments.
