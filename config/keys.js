@@ -1,5 +1,7 @@
-module.exports = {
-  mongoURI:
-    'mongodb://jbianco:falcone1@ds147592.mlab.com:47592/sw-devconnector',
-  secretOrKey: 'secret'
-};
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./keys_prod');
+  console.log('===================> run mode: production');
+} else {
+  module.exports = require('./keys_dev');
+  console.log('===================> run mode: development');
+}

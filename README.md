@@ -49,3 +49,4 @@ https://jb-devconnector.herokuapp.com
     $ 2018/09/24 - Profile Display.
     $ 2018/09/27 - Posts and Comments.
     $ 2018/09/28 - Likes, Unlikes and Single Post Display.
+    $ 2018/09/30 - Deploying to Heroku.
